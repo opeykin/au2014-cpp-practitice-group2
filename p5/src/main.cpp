@@ -21,11 +21,8 @@ int main() {
     remove_position(l, 0, 1);
     remove_position(l, 38, 39);
     show_all_positions(l);
-
-    remove_node(l, l->head.next);
-    remove_node(l, l->head.prev);
-
-    show_all_positions(l);
+    
+    remove_all(l);
 
     return 0;
 }
